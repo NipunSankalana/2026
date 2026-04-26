@@ -8,4 +8,10 @@ public class Inventory {
     public void addItem(Item item){
         items.add(item);
     }
+
+    public void displayInventory(){
+        for(Item item:items){
+            System.out.println(item);
+        }
+    }
 }
