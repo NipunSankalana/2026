@@ -7,4 +7,12 @@ public class Weapon extends Item{
         this.damage=damage;
         this.type=type;
     }
+
+    public int getDamage(){
+        return damage;
+    }
+
+    public String getType(){
+        return type;
+    }
 }
