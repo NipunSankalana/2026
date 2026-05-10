@@ -9,4 +9,8 @@ public class Fruit extends Item {
         return type;
     }
 
+    @Override
+    public void displayInfo(){
+        System.out.println("Fruit: "+getName()+" Quantity: "+getQuantity()+" Type: "+type);
+    }
 }

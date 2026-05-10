@@ -16,5 +16,8 @@ public class Weapon extends Item{
         return type;
     }
 
-
+    @Override
+    public void displayInfo(){
+        System.out.println("Fruit: "+getName()+" Quantity: "+getQuantity()+" Damage: "+damage+" Type: "+type);
+    }
 }
