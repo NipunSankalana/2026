@@ -16,8 +16,5 @@ public class Weapon extends Item{
         return type;
     }
 
-    @Override
-    public String toString(){
-        return "Fruit: "+getName()+" Quantity: "+getQuantity()+" Damage: "+damage+" Type: "+type;
-    }
+
 }

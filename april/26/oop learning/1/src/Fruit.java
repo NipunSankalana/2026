@@ -9,8 +9,4 @@ public class Fruit extends Item {
         return type;
     }
 
-    @Override
-    public String toString(){
-        return "Fruit: "+getName()+" Quantity: "+" Type: "+type;
-    }
 }
