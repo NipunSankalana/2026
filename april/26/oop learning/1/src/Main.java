@@ -4,6 +4,7 @@ public class Main{
         Item item=new Item("Generic Item",10);
         Fruit fruit=new Fruit("Apple",20,"Fuji");
 
+
         inventory.addItem(item);
         inventory.addItem(fruit);
         inventory.displayInventory();
